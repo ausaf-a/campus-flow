@@ -3,9 +3,7 @@
   "outputDirectory": "build",
   "framework": "create-react-app",
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "handle": "filesystem" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
